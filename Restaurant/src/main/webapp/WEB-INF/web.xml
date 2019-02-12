@@ -104,4 +104,11 @@
             <role-name>admin</role-name>
         </auth-constraint>
     </security-constraint>
+
+    <!--authentication method-->
+    <login-config>
+        <auth-method>BASIC</auth-method>
+        <realm-name>Ricky's Restaurant</realm-name>
+    </login-config>
+
 </web-app> 

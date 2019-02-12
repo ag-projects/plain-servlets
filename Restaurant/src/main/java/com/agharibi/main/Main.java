@@ -24,6 +24,10 @@ public class Main {
                 additionWebInfClasses.getAbsolutePath(), "/"));
         ctx.setResources(resources);
 
+        // add user & the role to tomcat
+        tomcat.addUser("alex", "pass");
+        tomcat.addRole("alex", "user");
+
         tomcat.start();
         tomcat.getServer().await();
     }
