@@ -23,9 +23,9 @@ public class OrderReceivedServlet extends HttpServlet {
 			    int q = Integer.parseInt(quantity);
 			    if (q > 0) menuDataService.addToOrder(menuDataService.getItem(i), q);
 			  }  
-			  catch(Exception e)
+			  catch(NumberFormatException e)
 			  {
-				  System.out.println(e);
+//				  System.out.println(e);
 			    //that's fine it just means there wasn't an order for this item 
 			  }  
 			  
