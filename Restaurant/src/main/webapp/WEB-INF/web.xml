@@ -68,5 +68,32 @@
         <url-pattern>/hello.html</url-pattern>
     </servlet-mapping>
 
+    <!--session time out-->
+    <session-config>
+        <session-timeout>120</session-timeout>
+    </session-config>
+    
+    <!--security configuration-->
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>order pages</web-resource-name>
+            <url-pattern>/order.html</url-pattern>
 
+            <url-pattern>/thankYou.html</url-pattern>
+        </web-resource-collection>
+
+        <auth-constraint>
+            <role-name>user</role-name>
+        </auth-constraint>
+    </security-constraint>
+    
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>staff pages</web-resource-name>
+            <url-pattern>/admin/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
 </web-app> 
