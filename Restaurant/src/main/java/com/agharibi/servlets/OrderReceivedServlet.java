@@ -1,6 +1,8 @@
 package com.agharibi.servlets;
 
-import com.agharibi.data.MenuDataService;
+import com.agharibi.data.MenuDao;
+import com.agharibi.data.MenuDaoFactory;
+import com.agharibi.domain.Order;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -10,18 +12,19 @@ import java.io.IOException;
 
 
 public class OrderReceivedServlet extends HttpServlet {
-	
-	MenuDataService menuDataService = new MenuDataService();
+
+	MenuDao menuDao = MenuDaoFactory.getMenuDao();
 	
 	public void doPost (HttpServletRequest request, HttpServletResponse response) throws IOException {
 		
-		int maxId = menuDataService.getFullMenu().size();
+		int maxId = menuDao.getFullMenu().size();
+		Order order = menuDao.newOrder(request.getUserPrincipal().getName());
 		for (int i = 0; i <maxId; i++) {
 			String quantity = request.getParameter("item_" + i);
 			 try  
 			  {  
 			    int q = Integer.parseInt(quantity);
-			    if (q > 0) menuDataService.addToOrder(menuDataService.getItem(i), q);
+			    if (q > 0) menuDao.addToOrder(order.getId(), menuDao.getItem(i), q);
 			  }  
 			  catch(NumberFormatException e)
 			  {
@@ -33,7 +36,7 @@ public class OrderReceivedServlet extends HttpServlet {
 
 		System.out.println("A new order has been received!");
 
-		Double total = menuDataService.getOrderTotal();
+		Double total = menuDao.getOrderTotal(order.getId());
 		HttpSession session = request.getSession();
 		session.setAttribute("total", total);
 

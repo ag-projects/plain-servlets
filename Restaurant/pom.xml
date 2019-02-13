@@ -17,6 +17,8 @@
 
 	<properties>
 		<tomcat.version>8.0.28</tomcat.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<build>
@@ -89,7 +91,12 @@
 			<version>${tomcat.version}</version>
 		</dependency>
 
-		<!-- Servlet api and dependencies -->
+		<!--h2 database-->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.197</version>
+		</dependency>
 
 
 	</dependencies>
