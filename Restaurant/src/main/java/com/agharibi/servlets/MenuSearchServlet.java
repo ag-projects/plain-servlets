@@ -1,9 +1,11 @@
 package com.agharibi.servlets;
 
-import com.agharibi.data.MenuDataService;
+import com.agharibi.data.MenuDao;
+import com.agharibi.data.MenuDaoFactory;
 import com.agharibi.domain.MenuItem;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,14 +13,17 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
+
+@WebServlet("/searchResults.html")
 public class MenuSearchServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        MenuDataService menuDataService = new MenuDataService();
 
         String searchTerm = req.getParameter("searchTerm");
-        List<MenuItem> fullMenu = menuDataService.find(searchTerm);
+
+        MenuDao menuDao = MenuDaoFactory.getMenuDao();
+        List<MenuItem> fullMenu = menuDao.find(searchTerm);
         PrintWriter out = resp.getWriter();
         resp.setContentType("text/html");
 

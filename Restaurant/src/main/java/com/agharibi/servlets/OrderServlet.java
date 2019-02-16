@@ -1,9 +1,14 @@
 package com.agharibi.servlets;
 
+import com.agharibi.data.MenuDao;
+import com.agharibi.data.MenuDaoFactory;
 import com.agharibi.data.MenuDataService;
 import com.agharibi.domain.MenuItem;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.HttpConstraint;
+import javax.servlet.annotation.ServletSecurity;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,6 +16,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
+@WebServlet("/order.html")
+@ServletSecurity(@HttpConstraint(rolesAllowed = {"user"}))
 public class OrderServlet extends HttpServlet {
 
     @Override
@@ -24,9 +31,8 @@ public class OrderServlet extends HttpServlet {
         out.println("<form action='orderReceived.html' method='POST' >");
         out.println("<ul>");
 
-
-        MenuDataService menuDataService = new MenuDataService();
-        List<MenuItem> menuItems = menuDataService.getFullMenu();
+        MenuDao menuDao = MenuDaoFactory.getMenuDao();
+        List<MenuItem> menuItems = menuDao.getFullMenu();
 
 
         for(MenuItem menuItem : menuItems) {
