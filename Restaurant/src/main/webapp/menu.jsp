@@ -1,11 +1,6 @@
-<%@ page import="com.agharibi.data.MenuDao" %>
-<%@ page import="com.agharibi.data.MenuDaoFactory" %>
 <%@ page import="com.agharibi.domain.MenuItem" %>
 <%@ page import="java.util.List" %>
-<%
-    MenuDao menuDao = MenuDaoFactory.getMenuDao();
-    List<MenuItem> fullMenu = menuDao.getFullMenu();
-%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -16,7 +11,8 @@
 <h2>Menu</h2>
 <ul>
     <%
-        for (MenuItem item : fullMenu) {
+        List<MenuItem> menuItems = (List<MenuItem>) request.getAttribute("menuItems");
+        for (MenuItem item : menuItems) {
     %>
     <li><%=item%>
     </li>

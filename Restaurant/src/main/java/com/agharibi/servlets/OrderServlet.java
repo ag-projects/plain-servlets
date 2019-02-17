@@ -2,9 +2,10 @@ package com.agharibi.servlets;
 
 import com.agharibi.data.MenuDao;
 import com.agharibi.data.MenuDaoFactory;
-import com.agharibi.data.MenuDataService;
 import com.agharibi.domain.MenuItem;
 
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.HttpConstraint;
 import javax.servlet.annotation.ServletSecurity;
@@ -13,7 +14,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 @WebServlet("/order.html")
@@ -23,26 +23,14 @@ public class OrderServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        PrintWriter out = resp.getWriter();
-        resp.setContentType("text/html");
-        out.println("<html><body><h1>Ricky's Restaurant</h1>");
-        out.println("<h2>Order your food:</h2>");
-
-        out.println("<form action='orderReceived.html' method='POST' >");
-        out.println("<ul>");
-
         MenuDao menuDao = MenuDaoFactory.getMenuDao();
         List<MenuItem> menuItems = menuDao.getFullMenu();
 
+        req.setAttribute("menuItems", menuItems);
 
-        for(MenuItem menuItem : menuItems) {
-            out.println("<li>" + menuItem + "<input type='text' name='item_" + menuItem.getId() + "' /></li>");
-        }
+        ServletContext servletContext = getServletContext();
+        RequestDispatcher dispatcher = servletContext.getRequestDispatcher("/order.jsp");
+        dispatcher.forward(req, resp);
 
-
-        out.println("</ul>");
-        out.println("<input type='submit' />");
-        out.println("</form></body></html>");
-        out.close();
     }
 }

@@ -564,14 +564,9 @@
       <change afterPath="$PROJECT_DIR$/../../mvcDemo" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../oauth2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../oauth2-flows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/helloworld.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/rickys.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/squares.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/topimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/searchResults.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/thankYou.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reflections/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reflections/.idea/libraries/h2_1_4_197.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reflections/.idea/misc.xml" afterDir="false" />
@@ -733,6 +728,16 @@
       <change afterPath="$PROJECT_DIR$/../../webDemo/src/main/webapp/macys.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../webDemo/webDemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/HelloWorldServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/helloworld.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/HelloWorldServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/MenuSearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/MenuSearchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/OrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/ThankYouServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/ThankYouServlet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -758,22 +763,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="34" column="105" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/thankYou.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="446">
+              <caret line="34" column="105" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -818,18 +841,21 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e86d0115-84a6-40b3-9c17-270758d2802b/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/HelloWorldServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderReceivedServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/data/MenuDataService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/filters/MenuSearchLoginFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/filters/MenuSearchCorrectionRequestWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/filters/MenuSearchCorrectionFilter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/helloworld.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/searchResults.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/order.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/thankYou.jsp" />
       </list>
     </option>
   </component>
@@ -915,7 +941,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550346931669" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550365032564" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -1001,12 +1027,12 @@
       <workItem from="1549895217045" duration="987000" />
       <workItem from="1549972435615" duration="678000" />
       <workItem from="1549984677010" duration="8542000" />
-      <workItem from="1550081184315" duration="10860000" />
+      <workItem from="1550081184315" duration="14821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32156000" />
+    <option name="totallyTimeSpent" value="36117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1854" y="72" width="1632" height="1020" extended-state="0" />
@@ -1024,11 +1050,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287483" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31860465" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46077347" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28508288" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3524862" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3922652" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32590234" />
@@ -1207,16 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderReceivedServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/data/MenuDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
@@ -1267,23 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1295,16 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="24" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1355,23 +1344,99 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.0.28/tomcat-embed-core-8.0.28-sources.jar!/javax/servlet/http/HttpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="34" column="105" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="105" />
+        <state relative-caret-position="158">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.0.28/tomcat-embed-core-8.0.28-sources.jar!/javax/servlet/GenericServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
+          <folding>
+            <element signature="e#4738#4739#0" expanded="true" />
+            <element signature="e#4799#4800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/searchResults.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="10" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderReceivedServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="405">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/thankYou.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="34" column="105" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
