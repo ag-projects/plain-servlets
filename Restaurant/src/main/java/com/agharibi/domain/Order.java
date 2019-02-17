@@ -2,6 +2,7 @@ package com.agharibi.domain;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class Order {
 
@@ -58,5 +59,18 @@ public class Order {
 
 	public void setContents(Map<MenuItem, Integer> contents) {
 		this.currentOrder=contents;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (!(o instanceof Order)) return false;
+		Order order = (Order) o;
+		return getId().equals(order.getId());
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(getId());
 	}
 }

@@ -29,6 +29,8 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper-el:8.0.28" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:8.0.28" />
           <element id="library" level="project" name="Maven: com.h2database:h2:1.4.197" />
+          <element id="library" level="project" name="Maven: org.json:json:20170516" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.0.28" />
         </element>
       </element>
       <element id="directory" name="META-INF">

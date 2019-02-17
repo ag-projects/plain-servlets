@@ -3,6 +3,8 @@ package com.agharibi.servlets;
 import com.agharibi.data.MenuDao;
 import com.agharibi.data.MenuDaoFactory;
 import com.agharibi.domain.Order;
+import com.agharibi.websockets.KitchenDisplaySessionHandler;
+import com.agharibi.websockets.KitchenDisplaySessionHandlerFactory;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -36,6 +38,9 @@ public class OrderReceivedServlet extends HttpServlet {
 		}
 
 		System.out.println("A new order has been received!");
+		System.out.println("Order is -> " + order.toString());
+		KitchenDisplaySessionHandler handler = KitchenDisplaySessionHandlerFactory.getHandler();
+		handler.newOrder(order);
 
 		Double total = menuDao.getOrderTotal(order.getId());
 		HttpSession session = request.getSession();
