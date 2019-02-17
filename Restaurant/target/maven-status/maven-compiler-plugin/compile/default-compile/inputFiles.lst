@@ -1,6 +1,7 @@
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/data/MenuDaoFactory.java
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/data/DatabaseBootstrap.java
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/servlets/MenuServlet.java
+/Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/filters/MenuSearchLoginFilter.java
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/servlets/OrderReceivedServlet.java
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/data/MenuDataService.java
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/servlets/ThankYouServlet.java
@@ -10,5 +11,6 @@
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/domain/MenuItem.java
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/main/Main.java
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/domain/Order.java
-/Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/servlets/HelloWorldServlet.java
+/Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/filters/MenuSearchCorrectionFilter.java
+/Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/filters/MenuSearchCorrectionRequestWrapper.java
 /Users/Armen/handson/plain-servlets/Restaurant/src/main/java/com/agharibi/servlets/MenuSearchServlet.java

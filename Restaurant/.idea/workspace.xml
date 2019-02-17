@@ -564,9 +564,7 @@
       <change afterPath="$PROJECT_DIR$/../../mvcDemo" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../oauth2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../oauth2-flows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/searchResults.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/thankYou.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reflections/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reflections/.idea/libraries/h2_1_4_197.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reflections/.idea/misc.xml" afterDir="false" />
@@ -727,17 +725,42 @@
       <change afterPath="$PROJECT_DIR$/../../webDemo/src/main/webapp/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../webDemo/src/main/webapp/macys.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../webDemo/webDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/restaurant_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/restaurant_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/HelloWorldServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/helloworld.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/HelloWorldServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/MenuSearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/MenuSearchServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/OrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/thankYou.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/thankYou.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/restaurant.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/data/DatabaseBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/data/DatabaseBootstrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/data/MenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/data/MenuDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/data/MenuDaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/data/MenuDaoFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/domain/MenuCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/domain/MenuCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/domain/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/domain/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/domain/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/filters/MenuSearchCorrectionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/filters/MenuSearchCorrectionFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/OrderReceivedServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/OrderReceivedServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/ThankYouServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/ThankYouServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/data/MenuDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/data/MenuDataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/HelloWorldServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/MenuSearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/MenuSearchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/MenuServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/MenuServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/OrderReceivedServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/OrderReceivedServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/OrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/ThankYouServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/ThankYouServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/menu_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/menu_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/menu_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/menu_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/thankYou_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/thankYou_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/thankYou_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/thankYou_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/war-file/mymavenwebapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/war-file/mymavenwebapp.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -762,41 +785,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/thankYou.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/thankYou.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="34" column="105" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -836,14 +838,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/data/MenuDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/data/MenuDaoFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/domain/Order.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/09554697-a441-423d-8208-8e5914c9886e/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e86d0115-84a6-40b3-9c17-270758d2802b/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/HelloWorldServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderReceivedServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/data/MenuDataService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/filters/MenuSearchLoginFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/filters/MenuSearchCorrectionRequestWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/filters/MenuSearchCorrectionFilter.java" />
@@ -854,6 +854,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/searchResults.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/order.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuServlet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/thankYou.jsp" />
       </list>
@@ -921,6 +924,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="agharibi" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Restaurant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="agharibi" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -929,6 +942,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -941,7 +958,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550365032564" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550368934554" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -1027,18 +1044,18 @@
       <workItem from="1549895217045" duration="987000" />
       <workItem from="1549972435615" duration="678000" />
       <workItem from="1549984677010" duration="8542000" />
-      <workItem from="1550081184315" duration="14821000" />
+      <workItem from="1550081184315" duration="17343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36117000" />
+    <option name="totallyTimeSpent" value="38639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1854" y="72" width="1632" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49389416" visible="true" weight="0.23584905" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49389416" visible="true" weight="0.23584905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1046,21 +1063,21 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.50610584" side_tool="true" weight="0.36129507" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32906976" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287483" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31860465" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28508288" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3922652" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32906976" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3287483" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.31860465" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.28508288" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32590234" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3922652" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32590234" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1216,13 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="95" column="45" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/HelloWorldServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1247,16 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/domain/MenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#700#701#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,23 +1382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/order.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1409,34 +1392,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuSearchServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/thankYou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="414">
+          <caret line="27" selection-start-line="27" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/MenuServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="34" column="105" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="105" />
+        <state relative-caret-position="424">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/domain/MenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/ThankYouServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/thankYou.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
         </state>
       </provider>
     </entry>

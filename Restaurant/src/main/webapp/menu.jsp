@@ -1,5 +1,4 @@
-<%@ page import="com.agharibi.domain.MenuItem" %>
-<%@ page import="java.util.List" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -10,15 +9,9 @@
 <jsp:include page="/header.jsp"/>
 <h2>Menu</h2>
 <ul>
-    <%
-        List<MenuItem> menuItems = (List<MenuItem>) request.getAttribute("menuItems");
-        for (MenuItem item : menuItems) {
-    %>
-    <li><%=item%>
-    </li>
-    <%
-        }
-    %>
+    <c:forEach items="${menuItems}" var="menuItem">
+        <li>${menuItem} - ${menuItem.getDescription()}</li>
+    </c:forEach>
 </ul>
 <jsp:include page="/footer.jsp"/>
 </body>
