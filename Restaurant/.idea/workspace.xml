@@ -564,13 +564,6 @@
       <change afterPath="$PROJECT_DIR$/../../mvcDemo" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../oauth2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../oauth2-flows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplaySessionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplaySessionHandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplayWebsocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/KitchenManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/kitchenwebsocket.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reflections/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reflections/.idea/libraries/h2_1_4_197.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reflections/.idea/misc.xml" afterDir="false" />
@@ -731,37 +724,8 @@
       <change afterPath="$PROJECT_DIR$/../../webDemo/src/main/webapp/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../webDemo/src/main/webapp/macys.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../webDemo/webDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/restaurant_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/restaurant_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderReceivedServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderReceivedServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/restaurant.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/data/DatabaseBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/data/DatabaseBootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/data/MenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/data/MenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/domain/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/filters/MenuSearchCorrectionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/filters/MenuSearchCorrectionFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/KitchenAsyncTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/KitchenAsyncTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/KitchenAysncServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/KitchenAysncServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/OrderReceivedServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/OrderReceivedServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/ThankYouServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/servlets/ThankYouServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/data/MenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/data/MenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/data/MenuDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/data/MenuDataService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/domain/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/HelloWorldServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/MenuSearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/MenuSearchServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/MenuServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/MenuServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/OrderReceivedServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/OrderReceivedServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/OrderServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/ThankYouServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/servlets/ThankYouServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/war-file/mymavenwebapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/war-file/mymavenwebapp.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplaySessionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplaySessionHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -786,72 +750,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderReceivedServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/domain/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1582#1583#0" expanded="true" />
-                <element signature="e#1617#1618#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/data/MenuDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#491#498#0" expanded="true" />
-                <element signature="e#1438#1448#0" expanded="true" />
-                <element signature="e#4591#4609#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="246" selection-start-line="246" selection-end-line="246" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/kitchenwebsocket.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="1" column="68" lean-forward="true" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplaySessionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="319">
+              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -917,8 +820,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplaySessionHandlerFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplayWebsocket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplaySessionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/servlets/OrderReceivedServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplaySessionHandler.java" />
       </list>
     </option>
   </component>
@@ -984,14 +887,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="agharibi" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Restaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="websockets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1004,7 +900,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550427875945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550428917902" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -1095,13 +991,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41739000" />
+    <option name="totallyTimeSpent" value="42457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="31" width="1564" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49101797" visible="true" weight="0.25886992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49101797" visible="true" weight="0.25886992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1112,11 +1008,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287483" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31860465" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46728972" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46728972" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.44509345" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.44509345" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32590234" />
@@ -1479,8 +1375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/websockets/KitchenDisplaySessionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="319">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
